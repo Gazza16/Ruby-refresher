@@ -21,7 +21,7 @@
 
 # end
 
-
+puts "Age please: "
 age = gets.chomp.to_i
 
 wallet = true
