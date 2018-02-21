@@ -21,3 +21,4 @@ puts "What is the capital of #{birth_country}?"
 capital = gets.chomp
 
 puts "Cool, turns out #{capital} is the capital of #{birth_country}"
+
