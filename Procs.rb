@@ -1,7 +1,10 @@
 #working with procs
 
-family = {:carla => 36, :Leandra => 33, :Dad => 58, :Mum => 56}
+family_ages = [30, 33, 36, 56, 59]
 
-group = family.select {|name, age| age > 50 }
+under_forty = Proc.new {|age| age < 40 }
 
-puts group
+group_one = family_ages.select(&under_forty)
+
+
+puts group_one
